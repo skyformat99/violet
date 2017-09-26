@@ -1,0 +1,19 @@
+defined_objects:
+    - "red_block_m":
+        size: {x: 0.05, y: 0.05, z: 0.05}
+        type: "block"
+        color: "red"
+        shape: "cube"
+        material: "paper"
+    - "green_block_m":
+        size: {x: 0.05, y: 0.05, z: 0.05}
+        type: "block"
+        color: "green"
+        shape: "cube"
+        material: "paper"
+    - "blue_block_m":
+        size: {x: 0.05, y: 0.05, z: 0.05}
+        type: "block"
+        color: "blue"
+        shape: "cube"
+        material: "paper"

@@ -1,0 +1,565 @@
+defined_objects:
+    - "purple_ball":
+        size: {x: 0.10, y: 0.10, z: 0.10}
+        type: "ball"
+        color: "purple"
+        shape: "spherical"
+        material: "plastic"
+    - "yellow_ball":
+        size: {x: 0.10, y: 0.10, z: 0.10}
+        type: "ball"
+        color: "yellow"
+        shape: "spherical"
+        material: "plastic"
+    - "big_yellow_ball":
+        size: {x: 0.16, y: 0.16, z: 0.16}
+        type: "big_ball"
+        color: "orange"
+        shape: "spherical"
+        material: "plastic"
+    - "orange_ball":
+        size: {x: 0.10, y: 0.10, z: 0.10}
+        type: "ball"
+        color: "orange"
+        shape: "spherical"
+        material: "plastic"
+    - "pink_ball":
+        size: {x: 0.10, y: 0.10, z: 0.10}
+        type: "ball"
+        color: "pink"
+        shape: "spherical"
+        material: "plastic"
+    - "big_red_ball":
+        size: {x: 0.16, y: 0.16, z: 0.16}
+        type: "big_ball"
+        color: "pink"
+        shape: "spherical"
+        material: "plastic"
+    - "red_pin":
+        size: {x: 0.08, y: 0.08, z: 0.22}
+        type: "pin"
+        color: "red"
+        material: "plastic"
+    - "orange_pin":
+        size: {x: 0.08, y: 0.08, z: 0.22}
+        type: "pin"
+        color: "orange"
+        material: "plastic"
+    - "yellow_pin":
+        size: {x: 0.08, y: 0.08, z: 0.22}
+        type: "pin"
+        color: "yellow"
+        material: "plastic"
+    - "blue_pin":
+        size: {x: 0.08, y: 0.08, z: 0.22}
+        type: "pin"
+        color: "blue"
+        material: "plastic"
+    - "green_pin":
+        size: {x: 0.08, y: 0.08, z: 0.22}
+        type: "pin"
+        color: "green"
+        material: "plastic"
+    - "green_box":
+        size: {x: 0.12, y: 0.12, z: 0.12}
+        type: "box"
+        color: "green"
+        shape: "cube"
+        material: "paper"
+    - "red_prism":
+        size: {x: 0.15, y: 0.28, z: 0.15}
+        type: "prism"
+        color: "red"
+        shape: "prism"
+        material: "paper"
+    - "juice_box":
+        size: {x: 0.07, y: 0.07, z: 0.23}
+        type: "prism"
+        color: "yellow"
+        shape: "prism"
+        material: "paper"
+    - "beach_ball":
+        size: {x: 0.19, y: 0.19, z: 0.19}
+        type: "big_ball"
+        color: "FB"
+        shape: "spherical"
+        material: "fabric"
+    - "green_prism":
+        size: {x: 0.07, y: 0.13, z: 0.38}
+        type: "box"
+        color: "green"
+        shape: "prism"
+        material: "paper"
+    - "brick":
+        size: {x: 0.11, y: 0.13, z: 0.05}
+        type: "brick"
+        color: "grey"
+        shape: "prism"
+        material: "foam"
+    - "bigger_brick":
+        size: {x: 0.09, y: 0.19, z: 0.05}
+        type: "brick"
+        color: "grey"
+        shape: "prism"
+        material: "foam"
+    - "frame":
+        size: {x: 0.05, y: 0.29, z: 0.23}
+        type: "frame"
+        color: "grey"
+        shape: "prism"
+        material: "foam"
+    - "paper_bag":
+        size: {x: 0.15, y: 0.16, z: 0.24}
+        type: "paper_bag"
+        color: "brown"
+        material: "paper"
+    - "triangle":
+        size: {x: 0.05, y: 0.16, z: 0.14}
+        type: "brick"
+        color: "grey"
+        shape: "prism"
+        material: "foam"
+    - "blue_box":
+        size: {x: 0.04, y: 0.04, z: 0.04}
+        type: "block"
+        color: "blue"
+        shape: "cube"
+        material: "plastic"
+    - "blue_box2":
+        size: {x: 0.04, y: 0.04, z: 0.04}
+        type: "block"
+        color: "blue"
+        shape: "cube"
+        material: "plastic"
+    - "red_box":
+        size: {x: 0.04, y: 0.04, z: 0.04}
+        type: "block"
+        color: "red"
+        shape: "cube"
+        material: "plastic"
+    - "green_box":
+        size: {x: 0.04, y: 0.04, z: 0.04}
+        type: "block"
+        color: "green"
+        shape: "cube"
+        material: "plastic"
+    - "striped_prism":
+        size: {x: 0.10, y: 0.10, z: 0.235}
+        type: "box"
+        color: "striped"
+        shape: "prism"
+        material: "paper"
+    - "magic_box":
+        size: {x: 0.37, y: 0.88, z: 0.6}
+        type: "box"
+        color: "white"
+        shape: "prism"
+        material: "paper"
+    - "toy_plane":
+        size: {x: 0.075, y: 0.12, z: 0.1}
+        type: "toy"
+        color: "yellow"
+        material: "plastic"
+    - "toy_carrot":
+        size: {x: 0.035, y: 0.1, z: 0.035}
+        type: "toy"
+        color: "orange"
+        shape: "cylinder"
+        material: "plastic"
+    - "toy_grapes_g":
+        size: {x: 0.06, y: 0.09, z: 0.06}
+        type: "toy"
+        color: "green"
+        shape: "cylinder"
+        material: "plastic"
+    - "toy_banana":
+        size: {x: 0.045, y: 0.09, z: 0.04}
+        type: "toy"
+        color: "yellow"
+        material: "plastic"
+    - "toy_corn":
+        size: {x: 0.045, y: 0.12, z: 0.045}
+        type: "toy"
+        color: "yellow"
+        shape: "cylinder"
+        material: "plastic"
+    - "flour_box":
+        size: {x: 0.04, y: 0.08, z: 0.09}
+        type: "prism"
+        color: "white"
+        shape: "prism"
+        material: "spaper"
+    - "milk_box":
+        size: {x: 0.06, y: 0.06, z: 0.11}
+        type: "prism"
+        color: "blue"
+        shape: "prism"
+        material: "spaper"
+    - "biscuit_box":
+        size: {x: 0.0625, y: 0.09, z: 0.035}
+        type: "prism"
+        color: "green"
+        shape: "prism"
+        material: "spaper"
+    - "fb_ball":
+        size: {x: 0.05, y: 0.05, z: 0.05}
+        type: "big_ball"
+        color: "FB"
+        shape: "spherical"
+        material: "fabric"
+    - "pin_ball":
+        size: {x: 0.035, y: 0.035, z: 0.035}
+        type: "ball"
+        color: "orange"
+        shape: "spherical"
+        material: "plastic"
+    - "brown_cylinder":
+        size: {x: 0.085, y: 0.085, z: 0.135}
+        type: "cylinder"
+        color: "brown"
+        shape: "cylinder"
+        material: "paper"
+    - "tennis_ball":
+        size: {x: 0.06, y: 0.06, z: 0.06}
+        type: "big_ball"
+        color: "green"
+        shape: "spherical"
+        material: "felt"
+    - "little_brown_cylinder":
+        size: {x: 0.055, y: 0.055, z: 0.055}
+        type: "cylinder"
+        color: "brown"
+        shape: "cylinder"
+        material: "paper"
+    - "big_red_pin":
+        size: {x: 0.08, y: 0.08, z: 0.22}
+        type: "pin"
+        color: "red"
+        material: "plastic"
+    - "red_big_car":
+        size: {x: 0.075, y: 0.08, z: 0.06}
+        type: "block"
+        color: "red"
+        material: "plastic"
+    - "red_block_s":
+        size: {x: 0.04, y: 0.04, z: 0.04}
+        type: "block"
+        color: "red"
+        shape: "cube"
+        material: "paper"
+    - "green_block_s":
+        size: {x: 0.04, y: 0.04, z: 0.04}
+        type: "block"
+        color: "green"
+        shape: "cube"
+        material: "paper"
+    - "blue_block_s":
+        size: {x: 0.04, y: 0.04, z: 0.04}
+        type: "block"
+        color: "blue"
+        shape: "cube"
+        material: "paper"
+    - "red_block_m":
+        size: {x: 0.05, y: 0.05, z: 0.05}
+        type: "block"
+        color: "red"
+        shape: "cube"
+        material: "paper"
+    - "green_block_m":
+        size: {x: 0.05, y: 0.05, z: 0.05}
+        type: "block"
+        color: "green"
+        shape: "cube"
+        material: "paper"
+    - "blue_block_m":
+        size: {x: 0.05, y: 0.05, z: 0.05}
+        type: "block"
+        color: "blue"
+        shape: "cube"
+        material: "paper"
+    - "red_block_l":
+        size: {x: 0.058, y: 0.058, z: 0.058}
+        type: "block"
+        color: "red"
+        shape: "cube"
+        material: "paper"
+    - "green_block_l":
+        size: {x: 0.058, y: 0.058, z: 0.058}
+        type: "block"
+        color: "green"
+        shape: "cube"
+        material: "paper"
+    - "blue_block_l":
+        size: {x: 0.058, y: 0.058, z: 0.058}
+        type: "block"
+        color: "blue"
+        shape: "cube"
+        material: "paper"
+    - "white_dove":
+        size: {x: 0.08, y: 0.06, z: 0.035}
+        type: "dove"
+        color: "white"
+        shape: "prism"
+        material: "paper"
+    - "brown_box":
+        size: {x: 0.09, y: 0.1, z: 0.075}
+        type: "box"
+        color: "brown"
+        shape: "prism"
+        material: "paper"
+    - "brown_woodenbox":
+        size: {x: 0.11, y: 0.11, z: 0.045}
+        type: "woodenbox"
+        color: "brown"
+        shape: "prism"
+        material: "wood"
+    - "white_boxlid":
+        size: {x: 0.2, y: 0.2, z: 0.055}
+        type: "boxlid"
+        color: "white"
+        shape: "prism"
+        material: "paper"
+    - "b_dove":
+        size: {x: 0.033, y: 0.082, z: 0.061}
+        type: "dove"
+        color: "texture"
+        shape: "prism"
+        material: "paper"
+    - "b_mas":
+        size: {x: 0.129, y: 0.076, z: 0.033}
+        type: "mas"
+        color: "texture"
+        shape: "prism"
+        material: "paper"
+    - "b_sanitas":
+        size: {x: 0.033, y: 0.090, z: 0.063}
+        type: "sanitas"
+        color: "texture"
+        shape: "prism"
+        material: "paper"
+    - "b_lipton":
+        size: {x: 0.142, y: 0.068, z: 0.061}
+        type: "lipton"
+        color: "texture"
+        shape: "prism"
+        material: "paper"
+    - "b_Pringoals":
+        size: {x: 0.08, y: 0.23, z: 0.08}
+        type: "pringles"
+        color: "green"
+        shape: "cylinder"
+        material: "plastic"
+    - "b_Pringles":
+        size: {x: 0.08, y: 0.23, z: 0.08}
+        type: "pringles"
+        color: "red"
+        shape: "cylinder"
+        material: "plastic"
+    - "b_cubelb":
+        size: {x: 0.058, y: 0.058, z: 0.055}
+        type: "bblock"
+        color: "blue"
+        shape: "cube"
+        material: "plastic"
+    - "b_cube":
+        size: {x: 0.04, y: 0.04, z: 0.04}
+        type: "bblock"
+        color: "red"
+        shape: "cube"
+        material: "paper"
+    - "b_Cocacola":
+        size: {x: 0.065, y: 0.12, z: 0.065}
+        type: "coke"
+        color: "texture"
+        shape: "cylinder"
+        material: "plastic"
+    - "blue_cylinder":
+        size: {x: 0.05, y: 0.05, z: 0.025}
+        type: "cylinder"
+        color: "blue"
+        shape: "cylinder"
+        material: "plastic"
+    - "green_cylinder":
+        size: {x: 0.05, y: 0.05, z: 0.025}
+        type: "cylinder"
+        color: "green"
+        shape: "cylinder"
+        material: "plastic"
+    - "red_cylinder":
+        size: {x: 0.036, y: 0.036, z: 0.035}
+        type: "cylinder"
+        color: "red"
+        shape: "cylinder"
+        material: "plastic"
+    - "toy_elephant":
+        size: {x: 0.075, y: 0.06, z: 0.05}
+        type: "toy_elephant"
+        color: "blue"
+        material: "plastic"
+    - "toy_duck":
+        size: {x: 0.075, y: 0.06, z: 0.05}
+        type: "toy"
+        color: "yellow"
+        material: "plastic"
+    - "red_cup":
+        size: {x: 0.075, y: 0.075, z: 0.09}
+        type: "cup"
+        color: "red"
+        shape: "cylinder"
+        material: "porcelain"
+    - "green_blocks":
+        size: {x: 0.05, y: 0.1, z: 0.05}
+        type: "blocks"
+        color: "green"
+        shape: "prism"
+        material: "plastic"
+    - "blue_blocks":
+        size: {x: 0.05, y: 0.1, z: 0.05}
+        type: "blocks"
+        color: "blue"
+        shape: "prism"
+        material: "plastic"
+    - "red_blocks":
+        size: {x: 0.05, y: 0.1, z: 0.05}
+        type: "blocks"
+        color: "red"
+        shape: "prism"
+        material: "plastic"
+    - "toy_bear":
+        size: {x: 0.07, y: 0.065, z: 0.05}
+        type: "toy"
+        color: "texture"
+        material: "plastic"
+    - "small_cup":
+        size: {x: 0.069, y: 0.069, z: 0.078}
+        type: "cup"
+        color: "texture"
+        shape: "cylinder"
+        material: "paper"
+    - "middle_cup":
+        size: {x: 0.079, y: 0.079, z: 0.095}
+        type: "cup"
+        color: "texture"
+        shape: "cylinder"
+        material: "paper"
+    - "big_cup":
+        size: {x: 0.089, y: 0.089, z: 0.112}
+        type: "cup"
+        color: "texture"
+        shape: "cylinder"
+        material: "paper"
+    - "small_cup_rev":
+        size: {x: 0.069, y: 0.069, z: 0.078}
+        type: "cup"
+        color: "texture"
+        shape: "cylinder"
+        material: "paper"
+    - "middle_cup_rev":
+        size: {x: 0.079, y: 0.079, z: 0.095}
+        type: "cup"
+        color: "texture"
+        shape: "cylinder"
+        material: "paper"
+    - "big_cup_rev":
+        size: {x: 0.089, y: 0.089, z: 0.112}
+        type: "cup"
+        color: "texture"
+        shape: "cylinder"
+        material: "paper"
+    - "yellow_cylinder":
+        size: {x: 0.05, y: 0.05, z: 0.025}
+        type: "cylinder"
+        color: "yellow"
+        shape: "cylinder"
+        material: "plastic"
+    - "green_house_cube":
+        size: {x: 0.048, y: 0.048, z: 0.045}
+        type: "block"
+        color: "green"
+        shape: "cube"
+        material: "plastic"
+    - "yellow_container_car":
+        size: {x: 0.171, y: 0.11, z: 0.034}
+        type: "block"
+        color: "yellow"
+        shape: "prism"
+        material: "wood"
+    - "red_container":
+        size: {x: 0.151, y: 0.074, z: 0.045}
+        type: "block"
+        color: "red"
+        shape: "prism"
+        material: "plastic"
+    - "toy_grapes_p":
+        size: {x: 0.06, y: 0.09, z: 0.06}
+        type: "toy"
+        color: "purple"
+        shape: "cylinder"
+        material: "plastic"
+    - "toy_pear":
+        size: {x: 0.053, y: 0.075, z: 0.06}
+        type: "toy"
+        color: "green"
+        shape: "cylinder"
+        material: "plastic"
+    - "gray_soft_car":
+        size: {x: 0.084, y: 0.04, z: 0.053}
+        type: "block"
+        color: "gray"
+        shape: "prism"
+        material: "fabric"
+    - "long_block":
+        size: {x: 0.059, y: 0.059, z: 0.116}
+        type: "block"
+        color: "red"
+        shape: "prism"
+        material: "plastic"
+    - "gray_block":
+        size: {x: 0.059, y: 0.059, z: 0.059}
+        type: "block"
+        color: "gray"
+        shape: "prism"
+        material: "plastic"
+    - "green_little_bowl":
+        size: {x: 0.070, y: 0.070, z: 0.035}
+        type: "cylinder"
+        color: "green"
+        shape: "cylinder"
+        material: "plastic"
+    - "yellow_bottle":
+        size: {x: 0.20, y: 0.065, z: 0.065}
+        type: "cylinder"
+        color: "yellow"
+        shape: "cylinder"
+        material: "plastic"
+    - "barilla_small":
+        size: {x: 0.075, y: 0.131, z: 0.155}
+        type: "barilla_small"
+        color: "blue"
+        shape: ""
+        material: "plastic"
+    - "green_salt":
+            size: {x: 0.06, y: 0.06, z: 0.175}
+            type: "salt"
+            color: "green"
+            shape: "cylinder"
+            material: "plastic"
+    - "pesto":
+            size: {x: 0.055, y: 0.055, z: 0.115}
+            type: "pesto"
+            color: "blue"
+            shape: "cylinder"
+            material: "glass"
+    - "red_hotsauce":
+            size: {x: 0.03, y: 0.03, z: 0.113}
+            type: "hotsauce"
+            color: "red"
+            shape: "cylinder"
+            material: "glass"
+    - "heinz":
+            size: {x: 0.065, y: 0.065, z: 0.1}
+            type: "heinz"
+            color: "red"
+            shape: "cylinder"
+            material: "glass"
+       

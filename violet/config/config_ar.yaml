@@ -1,0 +1,31 @@
+fixed_frame: /ar_marker_0
+predicate_options:
+    "fov":
+        target_frame: /camera_rgb_optical_frame
+        minimum_distance_from_camera: 0.52
+        maximum_fov_angle: 0.436332313
+        maximum_fov_angle_vertical: 0.287979327
+    "on_table":
+        table_start:
+            x: -0.535
+            y: -1.23
+            z: 0.0
+        table_end:
+            x: 0.065
+            y: 0.37
+            z: 0.0
+    "on":
+        upper_limit_multiplier: 0.2
+        lower_limit_multiplier: 0.37
+input_source_options:
+    "LineMod":
+        min_volumetric_intersection: 0.125
+        confidence_confusion_matrix: [0.8, 0.2, 0.4, 0.6]
+        location_pdf_sigma_matrix: [0.015, 0, 0, 0, 0.015, 0, 0, 0, 0.1]
+    "LineModHS":
+        min_volumetric_intersection: 0.125
+        confidence_confusion_matrix: [0.8, 0.2, 0.4, 0.6]
+        location_pdf_sigma_matrix: [0.015, 0, 0, 0, 0.015, 0, 0, 0, 0.1]
+    "segmentation":
+        reference_frame: /camera_depth_optical_frame
+        confidence: 100.0
